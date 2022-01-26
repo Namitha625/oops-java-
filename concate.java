@@ -5,10 +5,10 @@ class concate
   public static void main(String args[])
    {
    concate Obj=new concate();
-   Obj.consum("5"+"6");
+   Obj.consum(5,6);
    Obj.consum("Namitha"+" "+"Nandan");
    }
-  void consum(int a)
+  void consum(int a,int b)
   {
    System.out.println("Concated number:" +a);
   }
